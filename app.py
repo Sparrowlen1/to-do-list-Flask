@@ -31,5 +31,6 @@ def delete_task(todo_id):
     return redirect('/')
 
 
+# running the main function
 if __name__ =='__main__':
     app.run(debug=True)
